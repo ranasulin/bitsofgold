@@ -1,0 +1,20 @@
+{
+  "slaves": [
+    {
+      "domain": "http://127.0.0.1:4001",
+      "name": "slave1"
+    },
+    {
+      "domain": "http://127.0.0.1:4002",
+      "name": "slave2"
+    },
+    {
+      "domain": "http://127.0.0.1:4003",
+      "name": "slave3"
+    },
+    {
+      "domain": "http://127.0.0.1:4004",
+      "name": "slave4"
+    }
+  ]
+}

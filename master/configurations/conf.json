@@ -1,0 +1,19 @@
+{
+  "slaves": [
+    {
+      "domain": "http://slave1:4000",
+      "name": "slave1"
+    },
+    {
+      "domain": "http://slave2:4000",
+      "name": "slave2"
+    },  {
+      "domain": "http://slave3:4000",
+      "name": "slave3"
+    },  {
+      "domain": "http://slave4:4000",
+      "name": "slave4"
+    }
+
+  ]
+}

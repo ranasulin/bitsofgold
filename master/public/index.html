@@ -1,0 +1,18 @@
+<html ng-app="app" style="height:100%;">
+<head>
+    <meta charset="utf-8">
+
+    <!-- Load js dep -->
+    <script src="/client/lib/angular.js"></script>
+    <script src="/client/lib/socket.io.js"></script>
+    <script src="/client/lib/angular-socket-io-master/socket.js"></script>
+    <script src="/client/app.js"></script>
+    <script src="/client/services/mainPageManager.js"></script>
+    <script src="/client/controllers/mainPageCtrl.js"></script>
+    <link rel="stylesheet" href="/client/mainPageCSS.css">
+
+</head>
+<!-- appController -->
+<body ng-controller="MainPageController" ng-include ="'/client/view/crackMyPasswordHTML.html'">
+</body>
+</html>

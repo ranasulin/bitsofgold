@@ -1,0 +1,83 @@
+body {
+    background-image: url("../client/view/background1.jpg");
+}
+
+.page-wrapper {
+    padding-top: 4%;
+    text-align: center;
+}
+
+.page-wrapper .encryptedMessage{
+    height: 30%;
+    width: 30%;
+    margin-top: 0.5%;
+    border-radius: 5px;
+}
+
+.page-wrapper .key-size-div{
+    text-align: left;
+    margin: 0.5% auto;
+}
+.page-wrapper .key-size-combo{
+    font-size: 18px;
+    width: 76.8%;
+    margin: 0.67em auto;
+}
+
+.page-wrapper .message-info{
+    font-size: 18px;
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+.page-wrapper .button-wrapper{
+    width: 30%;
+    height: 5%;
+    margin: 0.5% auto;
+    text-align: right;
+}
+
+button {
+    border-radius: 5px;
+    height: 100%;
+}
+
+.page-wrapper .key-area{
+    width: 30%;
+    margin: 0.5% auto;
+    text-align: left;
+}
+
+.page-wrapper .decrypt-area{
+
+}
+
+.page-wrapper .decrypt-option{
+    width: 45%;
+    background: white;
+    padding: 5px;
+    margin: 0.5% auto;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    text-align: left;
+    line-height: 18px;
+    opacity: 0.75;
+}
+
+.loader {
+    border: 10px solid #016a66;
+    border-radius: 50%;
+    border-top: 10px solid #f6ebf9;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin: 5% auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
